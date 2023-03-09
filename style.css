@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+
+#cabeçalho{
+    margin: auto;
+    margin-top: 20px;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+#menu{
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+
+    .item li{
+        list-style: none;
+        margin-right:20px ;
+    }
+
+        .item a{
+    
+            text-decoration: none;
+    
+    
+        }
+
+
+
+
+main {
+    margin: auto;
+    max-width: 900px;
+}
+
+    main .capa {
+        margin-top: 20px;
+    }    
+
+    main h2{
+        margin-top: 20px;
+    }
+
+        main article p {
+            margin-top: 10px;
+            text-align: justify;
+            text-indent: 1em;
+            line-height: 1.5em;
+
+            }
+
+    footer{
+        width: 100%;
+        bottom: 0;       /* o bottom e o position: fixed juntos fazem o rodapé ficar preso no lugar*/
+        position: fixed;
+        text-align: center;
+        color: white;
+        background-color: #375B86;
+            }
+
+
+
+
+  
+
+
+
